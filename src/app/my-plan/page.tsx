@@ -1,0 +1,1 @@
+import MyPlan from "@/components/MyPlan"; export default function Page(){return <MyPlan/>}

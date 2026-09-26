@@ -1,0 +1,2 @@
+"use client";
+export default function Error({reset}:{error:Error&{digest?:string};reset:()=>void}){return <main className="container-fit grid min-h-[70vh] place-items-center text-center"><div><p className="text-xs font-black tracking-[.3em] text-[#ccff00]">SOMETHING WENT WRONG</p><h1 className="display mt-3 text-6xl uppercase">Couldn&apos;t load FitLog</h1><button onClick={()=>reset()} className="mt-7 bg-[#ccff00] px-6 py-4 text-sm font-black uppercase text-black">Try again</button></div></main>}
